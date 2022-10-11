@@ -4,17 +4,28 @@
 <head>
   <meta charset="utf-8">
   <title>This is the title. Deal with it.</title>
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
-  <hr size=10 noshade />
-  <h1>Jacob (real)</h1>
-  <hr size=10 noshade />
-  <p>
+  <hr class="hr-index-1" />
+
+  <table>
+    <tr>
+      <td>
+        <img class="handsome" src="images/handsome man.png" />
+      </td>
+      <td>
+        <h1>Jacob (real)</h1>
+      </td>
+    </tr>
+  </table>
+  <hr class="hr-index-1" />
+  <p id="p-index-1">
     <em>Bruh</em> <strong><em>Moment</em></strong>
   </p>
-  <hr size=5 noshade />
+  <hr />
   <h3><strong>BULLET LIST</strong></h3>
   <ul>
     <li>
@@ -33,8 +44,10 @@
       etc itd
     </li>
     <li>
-      <img
-        src="data:image/jpeg;base64,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" />
+      <img class="bulletimage1 bulletimages"
+        src="images/bullet.jpg" />
+      <img class="bulletimage2 bulletimages"
+        src="images/bullets.jpg" />
     </li>
   </ul>
   <hr size=5 noshade />
@@ -68,6 +81,7 @@
     </tr>
   </table>
   <hr size=5 noshade />
+  <a href="work experience.html">Work Experience</a>
 </body>
 
 </html>

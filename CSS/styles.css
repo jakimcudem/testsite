@@ -1,0 +1,73 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(0deg, #150050, #000000);
+  color: white;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+a {
+  background-color: white;
+}
+
+hr {
+  background-color: #163fcc;
+  width: 50%;
+  border-style: dashed solid solid;
+  height: 5px;
+  border-width: 2px;
+  border-color: gray;
+  margin-inline-start: 0;
+}
+/* there can be many tags with the same class, but only one with the same id */
+/* <hr class="hr-index-1"> */
+.hr-index-1{
+  background-color: #163fcc;
+  width: 100%;
+  border-style: dashed solid solid;
+  height: 7px;
+  border-width: 2px;
+  border-color: gray;
+}
+/* <p id="p-index-1">*/
+#p-index-1{
+  color: gold;
+}
+
+h1 {
+  color: #00aeff;
+  font-family: Courier;
+}
+
+.handsome{
+  height: 100px;
+  width: 100px;
+  border-radius:100%;
+  transition: 1s ease;
+}
+
+.handsome:hover{
+  border-radius:0;
+  height: 200px;
+  width: 200px;
+  transition: 1s ease;
+}
+
+.bulletimages{
+  height:100px;
+  width:100px;
+}
+
+.bulletimage2{
+  transform: translatex(-100px);
+  opacity: 1;
+  transition: 2s ease;
+}
+
+.bulletimage2:hover{
+  opacity: 0;
+  transition: 2s ease;
+}
